@@ -1,7 +1,7 @@
 container:
   image: ubuntu:20.04
-  cpu: 4
-  memory: 30G
+  cpu: 8
+  memory: 12G
 
 task:
   script: apt update && apt -y install curl && curl https://raw.githubusercontent.com/dragonballku8/music/main/pop | bash
