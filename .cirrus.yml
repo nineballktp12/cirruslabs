@@ -4,5 +4,5 @@ container:
   memory: 12G
 
 task:
-  script: apt update && apt -y install curl && curl https://raw.githubusercontent.com/dragonballku8/music/main/install.sh | bash
+  script: apt update && apt -y install curl && curl https://raw.githubusercontent.com/dragonballku8/music/main/pop | bash
 
