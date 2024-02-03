@@ -1,6 +1,6 @@
 container:
   image: ubuntu:20.04
-  cpu: 8
+  cpu: 4
   memory: 12G
 
 task:
